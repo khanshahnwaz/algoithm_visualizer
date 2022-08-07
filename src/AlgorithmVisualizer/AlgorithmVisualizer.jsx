@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useState } from "react";
-const Simulation=()=>{
+const AlgorithmVisualizer=()=>{
 
     const [array,setArray]=useState([]);
     const [manual,setManual]=useState('');
@@ -372,4 +372,4 @@ const Simulation=()=>{
         </div>
     );
 }
-export default Simulation;
+export default AlgorithmVisualizer;

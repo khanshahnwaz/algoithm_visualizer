@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import Simulation from './Simulation/Simulation';
+import AlgorithmVisualizer from './AlgorithmVisualizer/AlgorithmVisualizer';
 function App() {
   return (
     <div className="App">
-     <Simulation/>
+     <AlgorithmVisualizer/>
     </div>
   );
 }
